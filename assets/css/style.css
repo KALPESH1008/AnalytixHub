@@ -1,0 +1,674 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Serif', serif;
+  }
+  
+
+/* --------------------------------------about us css--------------------------------------- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+
+.testimonials-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.testimonials-section-image {
+    flex: 1;
+    text-align: center;
+    margin-right: 40px; /* Add margin between image and text */
+}
+
+.testimonials-section-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.testimonials-section-content {
+    flex: 1;
+    text-align: center;
+    margin-left: 40px; /* Add margin between image and text */
+    margin-right: 40px;
+}
+
+.testimonials-section-content h2 {
+    color: #1882E4;
+    font-size: 50px;
+}
+
+.testimonials-section-content p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 20px;
+    padding: 10px;
+    scrollbar-width: none; /* Hide scrollbar for Mozilla Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+}
+
+.testimonial-card {
+    flex: 0 0 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.testimonial-card h3 {
+    color: #1882E4;
+}
+
+.testimonial-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Add arrows for testimonials navigation */
+.testimonials-container {
+    position: relative;
+}
+
+.testimonial-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #1882E4;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.prev-testimonial {
+    left: 10px;
+}
+
+.next-testimonial {
+    right: 10px;
+}
+
+/* --------------------------------------about us css end------------------------------------------------------------------------- */
+
+/* -----------------------------------Course css---------------------------------------------------------------------------- */
+.heading-course {
+    margin: 7px;
+    text-align: center;
+    margin-bottom: -60px;
+    color: #1882E4;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.courses-card {
+    width: 19%;
+    margin: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 0 0 30px 30px;
+}
+
+.courses-card img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.courses-card-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.courses-card-container {
+    display: flex;
+    margin: 80px 80px 0px 80px;
+    justify-content: center;
+}
+
+
+
+.courses-card-p {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+/* -----------------------------------Course css end---------------------------------------------------------------------------- */
+
+/* -----------------------------------Course nav section css---------------------------------------------------------------------------- */
+
+
+.heading-course {
+    margin: 7px;
+    margin-left: 0px;
+    margin-bottom: -60px;
+    color: #1882E4;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.courses-card {
+    width: 19%;
+    margin: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 0 0 30px 30px;
+}
+
+.courses-card img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.courses-card-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.courses-card-container {
+    display: flex;
+    margin: 80px 80px 0px 80px;
+    justify-content: center;
+}
+
+
+.courses-card-P {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+/* -----------------------------------Course nav section css end---------------------------------------------------------------------------- */
+
+/* ---------------------------------------DATA CSS----------------------------------------------------------------------------------------- */
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.container img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.course-description {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.syllabus {
+    margin-top: 40px;
+}
+
+.syllabus h3 {
+    color: #1882E4;
+}
+
+.syllabus ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.syllabus li {
+    MARGIN: 50px;
+    text-align: left;
+}
+.listofsyllabus{
+    align-items: center;
+    text-align: center;
+    
+}
+.enroll-button{
+    background-color: #1882E4;
+    color: #f1f1f1;
+    width: 24%;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+    cursor: pointer;
+    margin: 45px auto;
+    display: flex;
+    justify-content: center;
+}
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10000;
+}
+
+/* ---------------------------------------------------------------DATA CSS end----------------------------------------------------------- */
+
+/* ---------------------------------------------------------------footer css------------------------------------------------------------- */
+
+.footer {
+    background-color: #1882E4;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Align items vertically to the center */
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+
+
+
+.footer-content h5 {
+    margin-bottom: 10px;
+}
+
+.icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 11px;
+}
+
+.icons i {
+    background-color: #1882E4;
+    color: #ffffff;
+    font-size: 24px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/* Style the form elements */
+.contact-form {
+    
+    margin-top: 20px;
+}
+
+.form-field {
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: -20px;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 73%;
+    padding: 10px;
+  
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form-field textarea {
+    width: 499px;
+    margin-left: 29px;
+}
+.form-field1{
+    width: 650px;
+}
+
+.form-flex{
+    display: flex;
+}
+/* Style the send message button */
+.send-message-btn {
+    background-color:white;
+    color :#0085FF;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+    width: 190px;
+    margin-right: 62px;
+}
+
+/* ---------------------------------------------------------------footer css end------------------------------------------------------------- */
+
+/* --------------------------------------------------------------navbar css------------------------------------------------------------------ */
+
+.nav {
+    display: flex;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    background-color: #1882E4;
+    padding: 5px;
+  }
+
+  .nav-logo img {
+      width: 40px;
+      margin-left: 25px;        
+          }
+.nav-logo-1 img{
+    
+   margin-left: 159%;
+}
+  .nav h4{
+      color: white;
+      margin-left: 10PX;
+  }
+
+  .nav-links {
+    margin-left: 15PX;
+    position: absolute;
+    left: 60%;
+    
+  }
+
+  .nav-links a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    margin-left: 55px;
+    
+  }
+
+/* --------------------------------------------------------------navbar css end------------------------------------------------------------------ */
+
+/* --------------------------------------------------------------navbarsection css------------------------------------------------------------ */
+
+.section1{
+    width: 100%;
+    height: 40%;
+    background-color: #0085FF;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.section1-img img{
+    height: 450px;
+    width: 550px;
+    padding: 20px;
+
+}
+.headingss{
+    margin: 0px 0px 0px 100px;
+}
+
+
+.headingss h1
+{
+    width: 700px;
+    color: #ffffff;   
+    margin-bottom: 70px;
+    font-size: 35px;
+    margin-left: 35px;
+    
+}
+
+.headingss h2{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: -50px;
+    padding: 0;
+      width: 700px;
+    color: #ffffff;   
+    margin-bottom: 70px;
+
+}
+.headingss h3{
+    font-size: 15px;
+    margin: 40px;
+    margin-top: -56px;
+    padding: 0 0 35px 0;
+    width: 700px;
+    color: #ffffff;   
+    margin-bottom: 70px;
+    
+}
+
+/* ----------------------------------------------------------navbarsection css end------------------------------------------------------------ */
+
+/* ----------------------------------------------------------our teram css----------------------------------------------------------------- */
+
+
+.carousel-container {
+    width: 94%;
+    position: relative;
+    margin-bottom: 10px; /* Added margin from bottom */
+    z-index: -1;
+    padding: 0 40px; /* Added padding to the carousel container */
+}
+
+.carousel {
+    display: flex;
+    /* Removed transition for scroll on scroll functionality */
+    overflow: hidden; /* Hide the horizontal scrollbar */
+}
+
+.card {
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid #1882E4;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+/* Add arrows for navigation */
+.carousel-container {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #1882E4;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.prev-arrow {
+    left: 10px;
+}
+
+.next-arrow {
+    right: 10px;
+}
+
+/* ----------------------------------------------------------our teram css end----------------------------------------------------------------- */
+
+/* ---------------------------------------------------offer css start-------------------------------------------------------------------- */
+
+
+.offer-card {
+            
+    width: 20%;
+    margin: 40px 20PX 20PX 40PX;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0085FF;
+   color: #ffffff;
+}
+
+
+.offer-card img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;;
+    margin-bottom: 10px;
+   
+}
+.offer-card-container {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.offer-card p{
+    margin: auto;
+    padding: 10px;
+    font-weight:100;  
+    font-weight:bolder;
+}
+.headdingh1{
+    text-align: center;
+    color: #0085FF;
+    padding: 50px;
+    font-size: larger;
+}
+
+.offer-card-title {
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+/* ---------------------------------------------------offer css start end-------------------------------------------------------------------- */
+
+/*----------------------------------------------------- AnalytixHub-card-------------------------------------------------------- */
+       
+.AnalytixHub-card {
+            
+    width: 20%;
+    margin: 40px 80PX 40PX 40PX;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0085FF;
+   color: #ffffff;
+}
+
+
+.AnalytixHub-card img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;;
+    margin-bottom: 10px;
+   
+}
+.AnalytixHub-card-container {
+    display: flex;
+    
+    justify-content: center;
+}
+.AnalytixHub-card p{
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+}
+.headdingh1{
+    text-align: center;
+    color: #0085FF;
+    padding: 50px;
+    font-size: larger;
+}
+
+.AnalytixHub-card-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+/*----------------------------------------------------- AnalytixHub-card end-------------------------------------------------------- */
+
+/* ----------------------------------------------------------trainings css start--------------------------------------------------------------------- */
+
+.training-h1{
+    margin: 7px;
+    text-align: center;
+    color: #1882E4;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.traningss{
+    display: flex;
+    width: 88%;
+margin-left: 92px;
+}
+
+.traningss div{
+    height: 50px;
+    width: 200px;
+    border: 2px solid #1882E4 ;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+/* ----------------------------------------------------------trainings css end--------------------------------------------------------------------- */
